@@ -9,7 +9,8 @@ void main(){
   
   scanf("%d %d",&base,&altezza); 
   
-  area = base * altezza/2;
+  area = base * altezza;
+  area = area *0.5;
 
   return area;
 }
